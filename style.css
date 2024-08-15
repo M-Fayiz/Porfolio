@@ -70,6 +70,11 @@ button{
     width:100%;
     object-fit: cover;
 }
+@media(max-width:768px){
+   .prf{
+    height:400px ;
+}
+   }
 .abt{
     background-color: #F4A300;
 }
@@ -165,7 +170,7 @@ button{
     position: absolute;
     z-index: -1;
     right: 0;
-    top: 80px;
+    top: 10px;
     opacity: 0.7;
 }
 
