@@ -31,16 +31,18 @@ button{
 }
 .prf{
     border-radius: 50%;
-   width: 500px;
-   height: 550px;
+   /* width: 480px; */
+   height: 500px;
+   
    background-color: rgb(152, 152, 152);
    overflow: hidden;
     
 }
-@media(max-width:576px){
+@media(max-width:768px){
     .arng >div{
         padding-left: 0;
     }
+    
 }
 
 .prj a{
@@ -55,12 +57,7 @@ button{
 .prj img{
     width: 30px;
 }
-@media (max-width:576px){
-    .prf{
-        width: 300px;
-        height: 330px;
-    }
-}
+
 .ball >div{
     height: 150px;
    width: 150px;
@@ -70,7 +67,7 @@ button{
 }
 .prf img{
     height: 100%;
-    width: 100%;
+    width:100%;
     object-fit: cover;
 }
 .abt{
@@ -109,7 +106,7 @@ button{
 .contaoner-fluid{
     background-color: #F3F3F3;
 }
-@media(max-width:576px){
+@media(max-width:768px){
     .hello{
         display: flex;
         flex-direction: column;
@@ -172,11 +169,13 @@ button{
     opacity: 0.7;
 }
 
-.v{
+.ve{
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 8px 15px grey;
     height: 350px;
 }
+
 
 video{
     outline: none;
@@ -217,6 +216,7 @@ video{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
 }
 .rond{
     width: 200px;
@@ -251,7 +251,8 @@ video{
 .ggg{
     width: 400px;
     position: absolute;
-    
+    opacity: 0.9;
+    z-index: -1;
     right: 10px;
     top: 40px;
   
@@ -295,10 +296,10 @@ video{
       
         display: none;
         flex-direction: column;
-        border-radius: 10px;
+       
         gap: 6px;
         width: 100px;
-        height: 350px;
+        height: 300px;
         background-color: #dddddd;
     }
     .haha button:hover{
@@ -314,10 +315,12 @@ video{
 
 @media(max-width:768px){
     #bar{
+        padding-left: 30px;
         display: flex;
+        justify-content: flex-end;
         position: fixed;
-        top: 5px;
-        right: 5px;
+        top: 8px;
+        right: 8px;
     }
 }
 @media(min-width:768px){
